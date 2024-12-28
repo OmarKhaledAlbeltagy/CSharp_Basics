@@ -4,6 +4,7 @@ namespace CS05
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             #region Q1. Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -139,13 +140,14 @@ namespace CS05
             //    Console.Write("Enter the new character: ");
             //    ParseCharacterFlag = char.TryParse(Console.ReadLine(), out NewCharacter);
             //}
-   
+
 
             //string result = Functions.ChangeCharacter(Text, NewCharacter, Postion);
             //Console.WriteLine($"New text: {result}");
             #endregion
-        }
 
+ 
+        }
 
     }
 }
